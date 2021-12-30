@@ -10,7 +10,7 @@ function HeroPage() {
 
             <div className =  { styles.hero_header }>
                 NOAH 
-                <img src = {image1} alt = "dot">
+                <img src = {image1} alt = "dot" className = { styles.dot }>
                 </img> IFE 
             </div>
 
