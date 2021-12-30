@@ -1,7 +1,7 @@
 import './App.css';
 import AboutPage from './components/AboutPage/AboutPage';
 import HeroPage from './components/HeroPage/HeroPage';
-import Navbar from './components/Navbar/Navbar';
+// import Navbar from './components/Navbar/Navbar';
 import Projects from './components/ProjectsPage/Projects';
 import StackPage from './components/StackPage/StackPage';
 import Aos from 'aos';
@@ -19,7 +19,6 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
       <HeroPage />
       <Projects />
       <AboutPage />

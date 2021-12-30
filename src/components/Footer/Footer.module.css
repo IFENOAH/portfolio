@@ -48,6 +48,10 @@ i{
         justify-content: space-between;
         flex-direction: column;
     }
+
+    .media{
+        margin-bottom: .3rem;
+    }
 }
 
 @media screen and (max-width: 530px) {

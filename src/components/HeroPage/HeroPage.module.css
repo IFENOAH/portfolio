@@ -11,7 +11,7 @@
 .hero_header{
     font-size: 1.8rem;
     letter-spacing: 1.5rem;
-    margin-bottom:2rem;
+    margin:1.5rem 0rem;
 }
 
 @media screen and (max-width: 580px) {
@@ -19,6 +19,10 @@
     .hero_header{
         font-size: 1rem;
         margin-bottom:0rem;
+    }
+
+    .scroll{
+        font-size: .5rem;
     }
 }
 
