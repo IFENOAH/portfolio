@@ -16,43 +16,43 @@ function HeroPage() {
 
             <div className = {styles.hero_content } > 
 
-                <span>
-                    <span className = {styles.hero_letter} data-aos='fade-right'>F</span>
-                    <span className = {styles.hero_letter} data-aos='fade-left'>R</span>
-                    <span className = {styles.hero_letter} data-aos='fade-up'>O</span>
-                    <span className = {styles.hero_letter} data-aos='fade-down'>N</span>
-                    <span className = {styles.hero_letter} data-aos='flip-down'>T</span>
+                <span data-aos='fade-left'>
+                    <span className = {styles.hero_letter} >F</span>
+                    <span className = {styles.hero_letter} >R</span>
+                    <span className = {styles.hero_letter} >O</span>
+                    <span className = {styles.hero_letter} >N</span>
+                    <span className = {styles.hero_letter} >T</span>
                 </span>
 
-                <span>
-                    <span className = {styles.hero_letter} data-aos='zoom-in'>-</span>
-                    <span className = {styles.hero_letter} data-aos='fade-left'>E</span>
-                    <span className = {styles.hero_letter} data-aos='fade-right'>N</span>
-                    <span className = {styles.hero_letter} data-aos='fade-up'>D</span>
+                <span data-aos='fade-right'>
+                    <span className = {styles.hero_letter} >-</span>
+                    <span className = {styles.hero_letter} >E</span>
+                    <span className = {styles.hero_letter} >N</span>
+                    <span className = {styles.hero_letter} >D</span>
                 </span>
 
                 <br></br>
 
-                <span>
-                    <span className = {styles.hero_letter} data-aos='flip-up'>D</span>
-                    <span className = {styles.hero_letter} data-aos='spin-up'>E</span>
-                    <span className = {styles.hero_letter} data-aos='fade-right'>V</span>
-                    <span className = {styles.hero_letter} data-aos='fade-up'>E</span>
+                <span data-aos='fade-down'>
+                    <span className = {styles.hero_letter} >D</span>
+                    <span className = {styles.hero_letter} >E</span>
+                    <span className = {styles.hero_letter} >V</span>
+                    <span className = {styles.hero_letter} >E</span>
                 </span>
-                <span>
-                    <span className = {styles.hero_letter} data-aos='fade-left'>L</span>
-                    <span className = {styles.hero_letter} data-aos='fade-down'>O</span>
-                    <span className = {styles.hero_letter} data-aos='fade-down'>P</span>
-                    <span className = {styles.hero_letter} data-aos='flip-right'>E</span>
-                    <span className = {styles.hero_letter} data-aos='flip-left'>R</span>
+
+                <span data-aos='fade-up'>
+                    <span className = {styles.hero_letter} >L</span>
+                    <span className = {styles.hero_letter} >O</span>
+                    <span className = {styles.hero_letter} >P</span>
+                    <span className = {styles.hero_letter} >E</span>
+                    <span className = {styles.hero_letter} >R</span>
                 </span>
 
 
                 <div className = {styles.scroll_button}>
-                <span className = { styles.scroll } >Scroll</span>
-                <img src = { image2 } alt = "arrow" className ={ styles.scroll_icon }></img>
-            </div>
-
+                    <span className = { styles.scroll } >Scroll</span>
+                    <img src = { image2 } alt = "arrow" className ={ styles.scroll_icon }></img>
+                </div>
 
             </div>
 

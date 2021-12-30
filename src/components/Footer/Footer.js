@@ -15,7 +15,7 @@ function Footer() {
 
             </div>
 
-            <p className = {styles.design}>Designed by: <i>Subomi</i> </p>
+            <p className = {styles.design}>Designed by: <i><a href = "https://www.behance.net/subomifortune"  target="_blank" rel="noopener noreferrer" > Subomi </a></i> </p>
 
 
         </div>
