@@ -5,18 +5,18 @@ function Footer() {
     return (
         <div className = {styles.footerWrapper}>
 
-            <div className = {styles.footerContent}>
-                <div>
-                    <span className = {styles.media}>Twiiter</span>
-                    <span className = {styles.media}>Instagram</span>
-                    <span className = {styles.media}>FaceBook</span>
-                    <span className = {styles.media}>Linkedin</span>
-                </div>
 
-                <p className = {styles.design}>Designed by: Subomi</p>
+            <div className = {styles.media_links}>
+
+                <span className = {styles.media}>Twitter</span>
+                <span className = {styles.media}>Instagram</span>
+                <span className = {styles.media}>FaceBook</span>
+                <span className = {styles.media}>Linkedin</span>
+
             </div>
 
-            <h3 className = {styles.text}>Have a nice day</h3>
+            <p className = {styles.design}>Designed by: <i>Subomi</i> </p>
+
 
         </div>
     )

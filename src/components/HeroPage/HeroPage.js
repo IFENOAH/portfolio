@@ -14,7 +14,7 @@ function HeroPage() {
                 </img> IFE 
             </div>
 
-            <div tclassName = {styles.hero_content } > 
+            <div className = {styles.hero_content } > 
 
                 <span>
                     <span className = {styles.hero_letter} data-aos='fade-right'>F</span>
@@ -47,13 +47,16 @@ function HeroPage() {
                     <span className = {styles.hero_letter} data-aos='flip-left'>R</span>
                 </span>
 
+
+                <div className = {styles.scroll_button}>
+                <span className = { styles.scroll } >Scroll</span>
+                <img src = { image2 } alt = "arrow" className ={ styles.scroll_icon }></img>
             </div>
 
-            {/* <div className = {styles.scroll_button} data-aos='flip-down'>
-                <span className = { styles.scroll } >Scroll</span>
-                <img src = { image2 } alt = "arrow"></img>
-            </div> */}
 
+            </div>
+
+        
         </div>
     )
 }

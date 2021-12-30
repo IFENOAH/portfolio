@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin: auto; */
+    margin: auto;
     color: #959595;
 }
 
 .hero_header{
     font-size: 1.8rem;
     letter-spacing: 1.5rem;
-    margin-bottom:0rem;
+    margin-bottom:2rem;
 }
 
 @media screen and (max-width: 580px) {
@@ -30,7 +30,7 @@ span {
 }
 
 .hero_letter{
-    font-size: 21vw;
+    font-size: 23vw;
     font-weight: bold;
     line-height: 18vw;
     transition: all .1s ease-in-out;
@@ -42,19 +42,30 @@ span {
 
 .scroll_button{
     font-family: 'Raleway', sans-serif;
-    height: 10vh;
-    padding: 1rem;
-    position: absolute;
+    height: 8vh;
+    padding: .5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-    right: 3%;
-    bottom: 10%;
 }
 
 .scroll{
     font-family: 'Raleway', sans-serif;
-    transform: rotate(-90deg);
-    padding-left: .5rem;
+    /* transform: rotate(-90deg); */
 }
+
+.scroll_icon{
+
+    position: relative;
+    animation: mymove .5s infinite;
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 10px;
+    }
+  }
