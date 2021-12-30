@@ -1,0 +1,40 @@
+.stack_container{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 6rem;
+}
+
+@media screen and (max-width: 670px ) {
+
+    .stack_container{
+        padding: 1.5rem 2rem;
+    }
+}
+
+.stack_header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 18vw;
+    color: rgba(149, 149, 149, 0.12);
+}
+
+.stack_holder{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h5{
+    padding: .8rem 0rem;
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #959595;
+    font-family: "Raleway";
+}

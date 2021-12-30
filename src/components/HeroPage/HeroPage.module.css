@@ -1,0 +1,60 @@
+.hero_page{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto; */
+    color: #959595;
+}
+
+.hero_header{
+    font-size: 1.8rem;
+    letter-spacing: 1.5rem;
+    margin-bottom:0rem;
+}
+
+@media screen and (max-width: 580px) {
+   
+    .hero_header{
+        font-size: 1rem;
+        margin-bottom:0rem;
+    }
+}
+
+span {
+    display:inline-block;
+    padding:0;
+    margin: 0;
+    transition:0.3s;
+}
+
+.hero_letter{
+    font-size: 21vw;
+    font-weight: bold;
+    line-height: 18vw;
+    transition: all .1s ease-in-out;
+}
+
+.hero_letter:hover{
+    color: #fff;
+}
+
+.scroll_button{
+    font-family: 'Raleway', sans-serif;
+    height: 10vh;
+    padding: 1rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    right: 3%;
+    bottom: 10%;
+}
+
+.scroll{
+    font-family: 'Raleway', sans-serif;
+    transform: rotate(-90deg);
+    padding-left: .5rem;
+}

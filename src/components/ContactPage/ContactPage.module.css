@@ -1,0 +1,70 @@
+.contactPage{
+    position: relative;
+    margin-top: 3rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h6{
+    color:#959595;
+    font-size: 2rem;
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:768px){
+
+    h6{
+        font-size: 1.2rem;
+    }
+}
+
+.contactLink{
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    border-top: 3px solid #959595;
+    border-bottom: 3px solid#959595;
+    padding: 2vw;
+    overflow: hidden;
+}
+
+.contactLink p {
+    display: inline-block;
+    white-space: nowrap;
+    min-width: 100%;
+    height: 100%;
+    animation: animate 2s linear infinite;
+    font-size: 8vw;
+    font-weight: bolder;
+    margin: auto;
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+    padding-left: 100%;
+    animation: scroll 10s infinite linear;
+    font-family: 'Antonio';
+}
+
+.slide:hover{
+    color:  #02FAEE;
+}
+
+/* .slideTrack2{
+    animation-delay: 5s;
+} */
+
+
+@keyframes scroll
+{
+    0% {
+        transform: translate( 0, 0 );
+    }
+
+    100% {
+        transform: translate( -100%, 0 )
+    }
+}
