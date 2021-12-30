@@ -11,7 +11,7 @@ function Projects() {
 
                 <a href =  "https://sifuse.com/" target="_blank" rel="noopener noreferrer"  className = {styles.projects1} data-aos='fade-left'>
                     <h4>SIFUSE</h4>
-                    <h6 className = {styles.tool}> HTML/CSS/JAVASCRIPT</h6>
+                    <h6 className = {styles.tool}> NEXT.JS/REDUX/TAILWIND/SCSS</h6>
                 </a>
 
                 <a href = "https://fartra.netlify.app/" target="_blank" rel="noopener noreferrer" className = {styles.projects2} data-aos='fade-right'>
