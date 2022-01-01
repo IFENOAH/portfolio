@@ -5,11 +5,11 @@ function ContactPage() {
     return (
 
         <div className = {styles.contactPage}>
-            <h6>Have a Project in Mind?</h6>
+            <h6 className = {styles.locate}>Have a Project in Mind?</h6>
 
             <div className = {styles.contactLink}>
                 
-                <p className = {styles.slide}> CONTACT ME - LET'S WORK TOGETHER </p>
+                <a href= "mailto:ifeoluwadayonoah@gmail.com?subject=Hey there!" target="_blank" rel = "noopener noreferrer" className = {styles.slide}> CONTACT ME - LET'S WORK TOGETHER </a>
                 
             </div>
         </div>

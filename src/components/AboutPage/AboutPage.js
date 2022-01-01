@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './AboutPage.module.css'
+import Pdf from '../../Documents/Resume.pdf'
 
 function AboutPage() {
 
@@ -13,14 +14,17 @@ function AboutPage() {
                 <p className = {styles.about_content} data-aos='fade-up'>
                     Hi, my name is Noah Ife, a Front end Developer based in Lagos. 
                     I find creative ways to build bilateral digital experiences in order to meet users needs and solve their problem.
-                    When I’m not coding, I am an anime junkie and a coffee lover. My other interests includes photography, good music and art.
+                    When I’m not coding, I am an anime junkie and a coffee lover. My other interests includes photography, good music and art. <i className = {styles.italics}>Interesting guy? </i>
                 </p>
             </div>
 
-            <button className = {styles.aboutButton}>
-                interesting Guy? <br></br>
-                Find out more
-            </button>
+
+
+            <a href = { Pdf } type = "application/pdf" width = "100%" height = "600px" target = "_blank" rel = "noopener noreferrer" >
+                <button className = {styles.aboutButton}>
+                    Find out more
+                </button>
+            </a>
 
         </div>
 

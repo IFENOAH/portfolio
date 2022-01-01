@@ -31,10 +31,10 @@ function Projects() {
 
             </div>
 
-            <button className = {styles.projectButton} data-aos='fade-up'>
+            {/* <button className = {styles.projectButton} data-aos='fade-up'>
                 nice work? <br></br>
                 Exlpore More
-            </button>
+            </button> */}
 
         </div>
     )

@@ -11,6 +11,11 @@
     font-size: 1rem;
 }
 
+.subomi{
+    text-decoration: underline;
+    color: #02FAEE;
+}
+
 /* .text{
     display: flex;
     align-items: center;

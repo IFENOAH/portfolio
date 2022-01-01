@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import ContactPage from './components/ContactPage/ContactPage';
 import Footer from './components/Footer/Footer';
+import Interests from './components/Interests/Interests';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <AboutPage />
       <StackPage />
+      <Interests />
       <ContactPage />
       <Footer />
     </div>
