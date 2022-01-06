@@ -5,7 +5,7 @@ function Projects() {
     return (
         <div className = {styles.project_container}> 
 
-            <h2 className = {styles.project_header} data-aos='flip-up'>MY WORKS</h2>
+            <h2 className = {styles.project_header} data-aos='flip-up'>MY WORK</h2>
 
             <div className = { styles.project_holder }>
 
