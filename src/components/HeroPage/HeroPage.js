@@ -16,7 +16,7 @@ function HeroPage() {
 
             <div className = {styles.hero_content } > 
 
-                <span data-aos='fade-left'>
+                <span>
                     <span className = {styles.hero_letter} >F</span>
                     <span className = {styles.hero_letter} >R</span>
                     <span className = {styles.hero_letter} >O</span>
@@ -24,7 +24,7 @@ function HeroPage() {
                     <span className = {styles.hero_letter} >T</span>
                 </span>
 
-                <span data-aos='fade-right'>
+                <span>
                     <span className = {styles.hero_letter} >-</span>
                     <span className = {styles.hero_letter} >E</span>
                     <span className = {styles.hero_letter} >N</span>
@@ -33,14 +33,14 @@ function HeroPage() {
 
                 <br></br>
 
-                <span data-aos='fade-down'>
+                <span >
                     <span className = {styles.hero_letter} >D</span>
                     <span className = {styles.hero_letter} >E</span>
                     <span className = {styles.hero_letter} >V</span>
                     <span className = {styles.hero_letter} >E</span>
                 </span>
 
-                <span data-aos='fade-up'>
+                <span>
                     <span className = {styles.hero_letter} >L</span>
                     <span className = {styles.hero_letter} >O</span>
                     <span className = {styles.hero_letter} >P</span>

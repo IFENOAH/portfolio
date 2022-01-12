@@ -7,11 +7,11 @@ const Interests = () => {
 
         <div className = {styles.interests_container}>
 
-            <h2 className = {styles.interests_header} data-aos='fade-left'>INTERESTS</h2>
+            <h2 className = {styles.interests_header} >INTERESTS</h2>
 
             <div className = { styles.interests_holder }>
 
-                <p className = {styles.interests_content} data-aos='fade-up'>
+                <p className = {styles.interests_content} >
                     I started a career in photography which is still ongoing on the side. I take amazing potraits,
                     wedding images and nature.
                     You can please your eyes with some of my works <a href = "https://unsplash.com/@noah_ife" target = "_blank" rel = "noopener noreferrer" className = { styles.links }>here</a>. 

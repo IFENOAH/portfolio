@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './AboutPage.module.css'
-import Pdf from '../../Documents/ResumeTwo.pdf'
+import Pdf from '../../Documents/MyResume.pdf'
 
 function AboutPage() {
 
@@ -8,10 +8,10 @@ function AboutPage() {
     
         <div className = {styles.about_container}>
 
-            <h2 className = {styles.about_header} data-aos='fade-left'>ABOUT ME</h2>
+            <h2 className = {styles.about_header} >ABOUT ME</h2>
 
             <div className = { styles.about_holder }>
-                <p className = {styles.about_content} data-aos='fade-up'>
+                <p className = {styles.about_content} >
                     Hi, my name is Noah Ife, a Front end Developer based in Lagos. 
                     I find creative ways to build bilateral digital experiences in order to meet users needs and solve their problem.
                     When I’m not coding, I am an anime junkie and a coffee lover. My other interests includes photography, good music and art. <i className = {styles.italics}>Interesting guy? </i>

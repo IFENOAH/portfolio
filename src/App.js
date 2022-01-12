@@ -13,9 +13,9 @@ import Interests from './components/Interests/Interests';
 
 function App() {
 
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({ duration: 1000 });
+  // }, []);
 
 
   return (
