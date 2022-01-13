@@ -4,9 +4,9 @@ import HeroPage from './components/HeroPage/HeroPage';
 // import Navbar from './components/Navbar/Navbar';
 import Projects from './components/ProjectsPage/Projects';
 import StackPage from './components/StackPage/StackPage';
-import Aos from 'aos';
+// import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import ContactPage from './components/ContactPage/ContactPage';
 import Footer from './components/Footer/Footer';
 import Interests from './components/Interests/Interests';
