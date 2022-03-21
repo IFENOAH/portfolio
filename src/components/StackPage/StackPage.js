@@ -45,7 +45,7 @@ function StackPage() {
         </span>
         <span className={styles.tool}>
           {" "}
-          <img src={image12} alt="dot" className={styles.img2}></img>TYPESCRIPT
+          <img src={image12} alt="dot" className={styles.img3}></img>TYPESCRIPT
         </span>
         <span className={styles.tool}>
           {" "}
