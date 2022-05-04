@@ -18,12 +18,12 @@ function Projects() {
         </a>
 
         <a
-          href="https://fartra.netlify.app/"
+          href="https://noahs-cuisine.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects2}
         >
-          <h4>FARTRA</h4>
+          <h4>NOAH'S CUISINE</h4>
           <h6 className={styles.tool}>HTML/SCSS/JAVASCRIPT</h6>
         </a>
 
