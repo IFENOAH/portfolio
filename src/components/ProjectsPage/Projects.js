@@ -24,7 +24,7 @@ function Projects() {
           className={styles.projects2}
         >
           <h4>NOAH'S CUISINE</h4>
-          <h6 className={styles.tool}>HTML/SCSS/JAVASCRIPT</h6>
+          <h6 className={styles.tool}>REACT/CSS MODULES</h6>
         </a>
 
         <a
