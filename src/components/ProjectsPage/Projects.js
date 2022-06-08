@@ -13,7 +13,7 @@ function Projects() {
           rel="noopener noreferrer"
           className={styles.projects1}
         >
-          <h4>SIFUSE</h4>
+          <h4 className={styles.hoverGuy}>SIFUSE</h4>
           <h6 className={styles.tool}> NEXT.JS/REDUX/TAILWIND/SCSS</h6>
         </a>
 
@@ -23,7 +23,7 @@ function Projects() {
           rel="noopener noreferrer"
           className={styles.projects2}
         >
-          <h4>NOAH'S CUISINE</h4>
+          <h4 className={styles.hoverGuy}>NOAH'S CUISINE</h4>
           <h6 className={styles.tool}>REACT/CSS MODULES</h6>
         </a>
 
@@ -33,17 +33,27 @@ function Projects() {
           rel="noopener noreferrer"
           className={styles.projects3}
         >
-          <h4>NETFLIX CLONE</h4>
+          <h4 className={styles.hoverGuy}>NETFLIX CLONE</h4>
           <h6 className={styles.tool}>REACT</h6>
+        </a>
+
+        <a
+          href="https://exstracker.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.projects4}
+        >
+          <h4 className={styles.hoverGuy}>E-Tracker</h4>
+          <h6 className={styles.tool}> REACT/CSS</h6>
         </a>
 
         <a
           href="https://checktemp.netlify.app"
           target="_blank"
           rel="noopener noreferrer"
-          className={styles.projects4}
+          className={styles.projects5}
         >
-          <h4>CHECKTEMP</h4>
+          <h4 className={styles.hoverGuy}>C-WEATHER</h4>
           <h6 className={styles.tool}>REACT</h6>
         </a>
       </div>
