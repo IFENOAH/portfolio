@@ -4,7 +4,7 @@ import styles from "./Projects.module.css";
 function Projects() {
   return (
     <div className={styles.project_container}>
-      <h2 className={styles.project_header}>MY WORK</h2>
+      <h2 className={styles.project_header}>...PROJECTS</h2>
 
       <div className={styles.project_holder}>
         <a
