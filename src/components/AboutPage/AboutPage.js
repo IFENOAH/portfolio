@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutPage.module.css";
-import Pdf from "../../Documents/C_resume.pdf";
+import Pdf from "../../Documents/CResume.pdf";
 
 function AboutPage() {
   return (
