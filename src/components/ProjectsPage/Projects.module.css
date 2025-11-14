@@ -41,6 +41,19 @@
   padding: 0.5rem 6rem;
 }
 
+@media screen and (max-width: 768px) {
+  .project_header {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project_header {
+    padding: 0.5rem 1rem;
+    font-size: 15vw;
+  }
+}
+
 /* @media screen and (max-width: 580px) {
    
     .project_header{
@@ -57,7 +70,18 @@
   flex-direction: column;
   margin: auto;
   padding: 0.5rem 6rem;
+}
 
+@media screen and (max-width: 768px) {
+  .project_holder {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project_holder {
+    padding: 0.5rem 1rem;
+  }
 }
 
 .projects1 {
@@ -157,6 +181,22 @@
   color: rgba(149, 149, 149, 0.6);
   font-family: "Raleway";
   font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+  .tool {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tool {
+    font-size: 2.5vw;
+  }
+  
+  .hoverGuy {
+    font-size: 8vw;
+  }
 }
 
 /* @media screen and (max-width: 750px) {

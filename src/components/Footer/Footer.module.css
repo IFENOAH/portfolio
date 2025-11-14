@@ -61,10 +61,19 @@ a{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footerWrapper{
+        padding: 1.5rem 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}
+
 @media screen and (max-width: 530px) {
 
     .footerWrapper{
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 1rem;
     }
 
     .media{

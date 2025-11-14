@@ -14,11 +14,21 @@
   font-family: "Raleway";
   font-weight: 400;
   margin: 5rem 0rem 2rem 0rem;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  h6 {
+  .locate {
     font-size: 1.2rem;
+    margin: 3rem 0rem 1.5rem 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .locate {
+    font-size: 1rem;
+    margin: 2rem 0rem 1rem 0rem;
   }
 }
 

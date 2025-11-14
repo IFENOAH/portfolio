@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import styles from "./Projects.module.css";
-import talentapplyImg from "../../Images/talentapply.png";
-import talkamImg from "../../Images/talkam.png";
-import yourmentraImg from "../../Images/mentra.png";
-import useklakImg from "../../Images/klak.png";
-import publicdisplayImg from "../../Images/pd.png";
-import iverifyImg from "../../Images/iverify.png";
+import talentapplyImg from "../../Images/talentapply.webp";
+import talkamImg from "../../Images/talkam.webp";
+import yourmentraImg from "../../Images/mentra.webp";
+import useklakImg from "../../Images/klak.webp";
+import publicdisplayImg from "../../Images/pd.webp";
+import iverifyImg from "../../Images/iverify.webp";
 
 function Projects() {
   const [hoveredProject, setHoveredProject] = useState(null);

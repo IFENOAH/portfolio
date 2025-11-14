@@ -71,6 +71,8 @@ p {
   font-size: 1.6vw;
   transition: 0.9s ease-in-out;
   margin-top: 3rem;
+  background-color: none;
+  background: transparent
 }
 
 .italics {
