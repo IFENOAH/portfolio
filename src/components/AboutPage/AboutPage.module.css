@@ -75,6 +75,14 @@ p {
   background: transparent
 }
 
+@media screen and (max-width: 768px) {
+  .aboutButton {
+    width: 150px;
+    height: 150px;
+    font-size: 1rem;
+  }
+}
+
 .italics {
   font-family: "Raleway";
 }
