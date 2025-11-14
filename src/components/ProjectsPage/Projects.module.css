@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0.5rem 6rem;
 }
 
 .hoverGuy {
@@ -39,6 +38,7 @@
   align-items: flex-start;
   font-size: 18vw;
   color: rgba(149, 149, 149, 0.12);
+  padding: 0.5rem 6rem;
 }
 
 /* @media screen and (max-width: 580px) {
@@ -56,6 +56,8 @@
   justify-content: center;
   flex-direction: column;
   margin: auto;
+  padding: 0.5rem 6rem;
+
 }
 
 .projects1 {
@@ -67,6 +69,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 580px) {
@@ -86,6 +91,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-end;
 }
 
 .projects3 {
@@ -97,6 +105,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-start;
 }
 
 .projects4 {
@@ -108,6 +119,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-end;
 }
 
 .projects5 {
@@ -119,6 +133,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-start;
 }
 
 .projects6 {
@@ -130,6 +147,9 @@
   color: #959595;
   font-size: 6vw;
   text-decoration: none;
+  width: fit-content;
+  min-width: max-content;
+  align-self: flex-end;
 }
 
 .tool {

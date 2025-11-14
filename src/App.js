@@ -56,7 +56,7 @@ function App() {
   return (
     <div className="App">
       <Loader isLoading={isLoading} />
-      <div style={{ opacity: isLoading ? 0 : 1, transition: 'opacity 0.6s ease-in' }}>
+      <div style={{ opacity: isLoading ? 0 : 1, transition: 'opacity 0.8s ease-in' }}>
         <HeroPage />
         <Projects />
         <AboutPage />
