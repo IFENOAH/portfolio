@@ -67,6 +67,25 @@ function StackPage() {
           {" "}
           <img src={image11} alt="dot" className={styles.img2}></img>PHOTOSHOP
         </span>
+        <span className={styles.tool}>
+          {" "}
+          <img src={image7} alt="react native" className={styles.img3}></img>REACT NATIVE
+        </span>
+        <span className={styles.tool}>
+          {" "}
+          {/* <img src={image6} alt="nodejs" className={styles.img3}></img> */}
+          NODE.JS
+        </span>
+        <span className={styles.tool}>
+          {" "}
+          {/* <img src={image6} alt="golang" className={styles.img3}></img> */}
+          GOLANG
+        </span>
+        <span className={styles.tool}>
+          {" "}
+          {/* <img src={image6} alt="express" className={styles.img3}></img> */}
+          EXPRESS
+        </span>
       </div>
     </div>
   );

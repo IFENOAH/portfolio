@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutPage.module.css";
-import Pdf from "../../Documents/NOAH-FRONTEND-CV.pdf";
+import Pdf from "../../Documents/ogunderu Noah.pdf";
 
 function AboutPage() {
   return (

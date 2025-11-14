@@ -8,53 +8,63 @@ function Projects() {
 
       <div className={styles.project_holder}>
         <a
-          href="https://sifuse.com/"
+          href="https://talentapply.io/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects1}
         >
-          <h4 className={styles.hoverGuy}>SIFUSE</h4>
-          <h6 className={styles.tool}> NEXT.JS/REDUX/TAILWIND/SCSS</h6>
+          <h4 className={styles.hoverGuy}>TALENTAPPLY</h4>
+          <h6 className={styles.tool}> REACT/REDUX/RTKQUERY/TAILWIND/SCSS</h6>
         </a>
 
         <a
-          href="https://noahs-cuisine.netlify.app/"
+          href="https://talkam.net"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects2}
         >
-          <h4 className={styles.hoverGuy}>NOAH'S CUISINE</h4>
-          <h6 className={styles.tool}>REACT/CSS MODULES</h6>
+          <h4 className={styles.hoverGuy}>TALKAM</h4>
+          <h6 className={styles.tool}>REACT/TAILWIND/RTKQUERY</h6>
         </a>
 
         <a
-          href="https://net-cloned.netlify.app"
+          href="https://yourmentra.com/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects3}
         >
-          <h4 className={styles.hoverGuy}>NETFLIX CLONE</h4>
-          <h6 className={styles.tool}>REACT</h6>
+          <h4 className={styles.hoverGuy}>YOURMENTRA</h4>
+          <h6 className={styles.tool}>REACT/TAILWIND/RTKQUERY</h6>
         </a>
 
         <a
-          href="https://exstracker.netlify.app/"
+          href="https://useklak.com/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects4}
         >
-          <h4 className={styles.hoverGuy}>E-Tracker</h4>
-          <h6 className={styles.tool}> REACT/CSS</h6>
+          <h4 className={styles.hoverGuy}>USEKLAK</h4>
+          <h6 className={styles.tool}> REACT/TAILWIND/RTKQUERY</h6>
         </a>
 
         <a
-          href="https://checktemp.netlify.app"
+          href="https://publicdisplay.cc/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.projects5}
         >
-          <h4 className={styles.hoverGuy}>C-WEATHER</h4>
-          <h6 className={styles.tool}>REACT</h6>
+          <h4 className={styles.hoverGuy}>PUBLICDISPLAY</h4>
+          <h6 className={styles.tool}>VITE/REACT/TAILWIND</h6>
+        </a>
+
+        <a
+          href="https://www.iverify.ng/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.projects6}
+        >
+          <h4 className={styles.hoverGuy}>IVERIFY</h4>
+          <h6 className={styles.tool}>REACT/TYPESCRIPT/TAILWIND</h6>
         </a>
       </div>
 

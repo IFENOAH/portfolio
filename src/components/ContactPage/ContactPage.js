@@ -8,9 +8,10 @@ function ContactPage() {
             <h6 className = {styles.locate}>Have a Project in Mind?</h6>
 
             <div className = {styles.contactLink}>
-                
-                <a href= "mailto:ifeoluwadayonoah@gmail.com?subject=Hey there!" target="_blank" rel = "noopener noreferrer" className = {styles.slide}> CONTACT ME - LET'S WORK TOGETHER </a>
-                
+                <div className={styles.marqueeContainer}>
+                    <a href= "mailto:ifeoluwadayonoah@gmail.com?subject=Hey there!" target="_blank" rel = "noopener noreferrer" className = {styles.slide}> CONTACT ME - LET'S WORK TOGETHER </a>
+                    <a href= "mailto:ifeoluwadayonoah@gmail.com?subject=Hey there!" target="_blank" rel = "noopener noreferrer" className = {styles.slide}> CONTACT ME - LET'S WORK TOGETHER </a>
+                </div>
             </div>
         </div>
     )

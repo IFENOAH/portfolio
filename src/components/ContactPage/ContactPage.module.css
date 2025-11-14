@@ -32,19 +32,23 @@
   overflow: hidden;
 }
 
+.marqueeContainer {
+  display: flex;
+  width: fit-content;
+  animation: scroll 10s infinite linear;
+}
+
 .contactLink a {
   display: inline-block;
   white-space: nowrap;
-  min-width: 100%;
+  flex-shrink: 0;
   height: 100%;
-  animation: animate 2s linear infinite;
   font-size: 8vw;
   font-weight: bolder;
   margin: auto;
   transition: 0.7s ease-in-out;
   cursor: pointer;
-  padding-left: 100%;
-  animation: scroll 10s infinite linear;
+  padding-right: 4vw;
   font-family: "Antonio";
 }
 
@@ -73,10 +77,10 @@
 
 @keyframes scroll {
   0% {
-    transform: translate(0, 0);
+    transform: translateX(0);
   }
 
   100% {
-    transform: translate(-100%, 0);
+    transform: translateX(-50%);
   }
 }

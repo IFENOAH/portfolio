@@ -121,6 +121,17 @@
   text-decoration: none;
 }
 
+.projects6 {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  color: #959595;
+  font-size: 6vw;
+  text-decoration: none;
+}
+
 .tool {
   font-size: 1.5vw;
   color: rgba(149, 149, 149, 0.6);
@@ -161,7 +172,8 @@
 .projects2:hover,
 .projects3:hover,
 .projects4:hover,
-.projects5:hover {
+.projects5:hover,
+.projects6:hover {
   color: #02faee;
   transition: 0.5s ease-in-out;
 }
