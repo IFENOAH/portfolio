@@ -11,6 +11,9 @@ import image9 from "../../Images/next_icon.svg";
 import image10 from "../../Images/git.svg";
 import image11 from "../../Images/photoshop.png";
 import image12 from "../../Images/typescript.svg";
+import image13 from "../../Images/node.svg";
+import image14 from "../../Images/go.svg";
+import image15 from "../../Images/express.svg";
 
 function StackPage() {
   return (
@@ -73,17 +76,17 @@ function StackPage() {
         </span>
         <span className={styles.tool}>
           {" "}
-          {/* <img src={image6} alt="nodejs" className={styles.img3}></img> */}
+          <img src={image13} alt="nodejs" className={styles.img4}></img>
           NODE.JS
         </span>
         <span className={styles.tool}>
           {" "}
-          {/* <img src={image6} alt="golang" className={styles.img3}></img> */}
+          <img src={image14} alt="golang" className={styles.img4}></img>
           GOLANG
         </span>
         <span className={styles.tool}>
           {" "}
-          {/* <img src={image6} alt="express" className={styles.img3}></img> */}
+          <img src={image15} alt="express" className={styles.img4}></img>
           EXPRESS
         </span>
       </div>

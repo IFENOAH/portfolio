@@ -9,13 +9,15 @@
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  transition: opacity 0.6s ease-out, visibility 0.6s ease-out;
+  transition: transform 1s ease-out, opacity 1.5s ease-out, visibility 1s ease-out;
   opacity: 1;
   visibility: visible;
+  transform: translateY(0);
 }
 
 .loaderContainer.fadeOut {
-  opacity: 0;
+  transform: translateY(-100%);
+  opacity: 0.5;
   visibility: hidden;
   pointer-events: none;
 }
@@ -33,10 +35,17 @@
 
 .loaderText {
   font-family: "Antonio", sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 1rem;
+  font-size: 1.8rem;
+  letter-spacing: 1.5rem;
   color: #959595;
   margin-bottom: 1rem;
+  transition: transform 4.5s ease-out, opacity 2.5s ease-out;
+  position: relative;
+}
+
+.loaderContainer.fadeOut .loaderText {
+  transform: translateY(-150vh) scale(1.2);
+  opacity: 0;
 }
 
 .percentage {

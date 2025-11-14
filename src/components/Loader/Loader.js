@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Loader.module.css';
+import image1 from '../../Images/ellipse.svg'
 
 function Loader({ isLoading }) {
   const [percentage, setPercentage] = useState(0);
@@ -48,7 +49,11 @@ function Loader({ isLoading }) {
   return (
     <div className={`${styles.loaderContainer} ${!isLoading ? styles.fadeOut : ''}`}>
       <div className={styles.loaderContent}>
-        <div className={styles.loaderText}>NOAH IFE</div>
+        <div className={styles.loaderText}>
+            NOAH 
+                <img src = {image1} alt = "dot" className = { styles.dot }>
+                </img> IFE 
+        </div>
         <div className={styles.percentage}>{percentage}%</div>
         <div className={styles.progressBarContainer}>
           <div 

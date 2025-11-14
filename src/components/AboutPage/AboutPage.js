@@ -9,7 +9,7 @@ function AboutPage() {
 
       <div className={styles.about_holder}>
         <p className={styles.about_content}>
-          Hi, my name is Noah Ife, a Front end Developer based in Lagos. I find
+          Hi, my name is Noah Ife, a Software Developer based in Lagos. I find
           creative ways to build bilateral digital experiences in order to meet
           users needs and solve their problem. When I’m not coding, I am an
           anime junkie and a coffee lover. My other interests includes
