@@ -15,8 +15,7 @@ function AboutPage() {
           long term. When I’m not writing code, I'm usually diving into anime,
           exploring photography, or hunting for new coffee blends. I have a deep
           appreciation for good music, thoughtful art, and anything that sparks
-          creativity.
-          <i className={styles.italics}>Interesting guy? </i>
+          creativity. <i className={styles.italics}> Interesting guy? </i>
         </p>
       </div>
 
