@@ -9,11 +9,13 @@ function AboutPage() {
 
       <div className={styles.about_holder}>
         <p className={styles.about_content}>
-          Hi, my name is Noah Ife, a Software Developer based in Lagos. I find
-          creative ways to build bilateral digital experiences in order to meet
-          users needs and solve their problem. When I’m not coding, I am an
-          anime junkie and a coffee lover. My other interests includes
-          photography, good music and art.{" "}
+          Hi, my name is Noah Ife, a Software Engineer focused on crafting
+          precise, high-impact digital experiences. I design and build systems
+          that are intuitive for users, reliable for teams, and scalable for the
+          long term. When I’m not writing code, I'm usually diving into anime,
+          exploring photography, or hunting for new coffee blends. I have a deep
+          appreciation for good music, thoughtful art, and anything that sparks
+          creativity.
           <i className={styles.italics}>Interesting guy? </i>
         </p>
       </div>
